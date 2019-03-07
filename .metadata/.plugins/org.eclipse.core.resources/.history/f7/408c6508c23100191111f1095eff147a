@@ -1,0 +1,5 @@
+int monScore=10;
+monScore--;
+monScore=monScore*2;
+monScore=monScore/3;
+system.out.println("mon score est " + monScore);

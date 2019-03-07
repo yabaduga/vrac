@@ -1,0 +1,32 @@
+package core.service.copy;
+
+public class Livre {
+private String titre;
+private String auteur;
+private Integer nbExemplaire;
+
+public String getTitre() {
+	return titre;
+}
+
+public void setTitre(String titre) {
+	this.titre = titre;
+}
+
+public String getAuteur() {
+	return auteur;
+}
+
+public void setAuteur(String auteur) {
+	this.auteur = auteur;
+}
+
+public Integer getNbExemplaire() {
+	return nbExemplaire;
+}
+
+public void setNbExemplaire(Integer nb) {
+	this.nbExemplaire = nb;
+}
+
+}

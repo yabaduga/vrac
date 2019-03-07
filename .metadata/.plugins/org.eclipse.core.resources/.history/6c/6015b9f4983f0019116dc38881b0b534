@@ -1,0 +1,21 @@
+package core;
+
+import service.Film;
+import service.FilmService;
+
+public class App1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Film film=new Film();
+		film.setTitre("Titanic");
+		film.setGenre("Aventure");
+		film.setNbExemplaire(2);
+
+		FilmService service=new FilmService();
+		service.registerFilm(film);
+		
+		}
+
+}

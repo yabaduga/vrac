@@ -1,0 +1,27 @@
+package core.controller;
+import java.util.Scanner;
+
+import service.Livre;
+import service.LivreService;
+
+public class DefaultLivreController {
+	public void registerLivreFromConsoleInput() {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Quel est le titre du livre ?");
+		String titre=sc.nextLine();
+		System.out.println("Quel est l'auteur du livre ?");
+		String auteur=sc.nextLine();
+		System.out.println("Quel est le nb d'Exemplaire dispo ?");
+		int nb=sc.nextInt();
+	
+		Livre livre=new Livre();
+		livre.setTitre(titre);
+		livre.setAuteur(auteur);
+		livre.setNbExemplaire(nb);
+		
+		LivreService service=new LivreService();
+		service.registerLivre(livre);
+		
+	
+	}
+}

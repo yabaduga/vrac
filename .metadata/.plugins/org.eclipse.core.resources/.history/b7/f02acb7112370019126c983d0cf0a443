@@ -1,0 +1,23 @@
+package testscanner;
+
+import java.util.Scanner;
+
+
+public class Main {
+
+  private static Scanner sc_clé;
+
+public static void main(String[] args){
+
+   
+    System.out.println("Saisissez un entier : ");
+    
+    sc_clé = new Scanner(System.in);
+
+    int i = sc_clé.nextInt();
+
+    System.out.println("FIN ! " + i );
+
+  }
+
+}

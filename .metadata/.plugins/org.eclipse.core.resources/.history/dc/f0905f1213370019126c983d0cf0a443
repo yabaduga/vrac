@@ -1,0 +1,32 @@
+package testscanner;
+
+import java.util.Scanner;
+
+
+public class Main {
+
+  private static Scanner sc_clé;
+
+public static void main1(String[] args){
+
+   
+    System.out.println("Saisissez un nombre de 4 chiffres (ex : 1234) : ");
+    
+    sc_clé = new Scanner(System.in);
+
+    int i = sc_clé.nextInt();
+
+    System.out.println("FIN ! " + i );
+    
+   
+}
+ private static Scanner sc_test;
+    public static void main(String[] args){
+ System.out.println("Saisissez votre proposition (ex : 1234) : ");
+ 
+    sc_test= new Scanner(System.in);
+    int vpropo = sc_test.nextInt();
+
+  }
+
+}

@@ -1,0 +1,30 @@
+package testscanner;
+
+import java.util.Scanner;
+
+
+public class Main {
+
+  private static Scanner sc_clé;
+
+public static void main(String[] args){
+
+    sc_clé = new Scanner(System.in);
+
+    System.out.println("Saisissez un entier : ");
+
+    int i = sc_clé.nextInt();
+
+    System.out.println("Saisissez une chaîne : ");
+
+    //On vide la ligne avant d'en lire une autre
+
+    sc_clé.nextLine();
+
+    String str = sc_clé.nextLine();      
+
+    System.out.println("FIN ! " + sc_clé);
+
+  }
+
+}

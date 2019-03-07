@@ -1,0 +1,12 @@
+class FiguresGeometriques2 {
+    public static void main(String[] args) {
+        Figure[] f = new Figure[3];
+        f[0] = new RectangleColore(1.2, 3.4, 12.3, 43.2, 4);
+        f[1] = new Cercle(2.3, 4.5, 12.2);
+        f[2] = new Rectangle(1.3, 3.6, 2.3, 56.2);
+        for (int i = 0; i < f.length; i++){
+            f[i].affiche();
+            System.out.println("La surface de cette forme est :" + f[i].surface());
+        }
+    }
+}
