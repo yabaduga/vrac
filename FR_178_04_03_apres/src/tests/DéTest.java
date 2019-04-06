@@ -1,4 +1,6 @@
-package jeudedes;
+package tests;
+
+import jeudedes.Dé;
 
 import static org.junit.jupiter.api.Assertions.*;
 
