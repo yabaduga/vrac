@@ -3,6 +3,7 @@ package jeudedes;
 import jeudedes.De;
 
 public class Gobelet {
+        
         public final int NB_DES=2;
         private De d1 = new De();
         private De d2 = new De();
